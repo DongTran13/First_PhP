@@ -1,0 +1,32 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+table tr td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+td{
+	padding: 10px;
+}
+.bottom{
+	margin-top: 20px;
+}
+.one{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.two{
+	margin-top: 20px;
+}
+.three{
+	margin-top: 20px;
+}
+.noe{
+	margin-top: 20px;
+}
+.Pic{
+	width: 500px;
+
+}
