@@ -1,0 +1,16 @@
+
+.All{
+	background-size: 200px;
+	background-color: green;
+}
+h1{
+	color: red;
+}
+h2{
+	color: white;
+}
+.Pic{
+	background-size: 100px;
+	background-color: yellow;
+	text-align: center;
+}
