@@ -1,0 +1,20 @@
+.fruit-tbl{
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.pic{
+	width: 300px;
+	position: relative;
+    left: -246px;
+}
+.tbl-row{
+	text-align: center;
+	border: 1px solid black;
+	
+
+}
+.fruit-pic{
+	text-align: left; 
+}
+
