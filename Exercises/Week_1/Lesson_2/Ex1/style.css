@@ -6,15 +6,18 @@
 .pic{
 	width: 300px;
 	position: relative;
-    left: -246px;
+    margin-left: -128px;
 }
 .tbl-row{
 	text-align: center;
 	border: 1px solid black;
 	
-
 }
 .fruit-pic{
 	text-align: left; 
+}
+.Name{
+	border-collapse: collapse;
+	border: 1px solid black;
 }
 

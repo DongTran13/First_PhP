@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Form Basic</title>
+</head>
+<body>
+	<h1 style="color: purple">A Simple Form</h1>
+	<h2 style="color: #FF4E5D">Form Fundamental</h2>
+	<p>Customer Info</p>
+	<table class="tbl_form">
+		<tr class="tbl_row">
+			<td>
+				<form>
+				<label for="fullname">Name:</label>
+				<input type="text" name="name"><br>
+				<label for="tellephone">Telephone: </label>
+				<input type="tellephone" name="tellephone"><br>
+				<label for="email">E-mail address:</label>
+				<input type="email" name="email"><br>
+				<p>Gender:</p>
+				<input type="radio" name="gender" value="male">
+  				<label for="male">Male</label>
+ 				 <input type="radio" name="gender" value="female">
+  				<label for="female">Female</label><br>
+  				<label for="">Gender:</label>
+  				<input type="checkbox" name="vehicle1">
+  				<label for="vehicle1"> Basketball </label>
+ 			 	<input type="checkbox" name="vehicle2">
+  				<label for="vehicle2"> Football </label>
+  				<input type="checkbox" name="vehicle3">
+  				<label for="vehicle3"> Badminton </label>
+			</form> 
+			</td>
+		</tr>
+		<tr class="tbl_row">
+			<td>
+				<p>Books</p>
+				<label for="fullname">Name:</label>
+				<input type="text" name="name">
+				<label for="quantity">Quantity (Maximun 5)</label>
+				<input type="number" max="5" min="1" value="3" name="quantity">
+			</td>
+		</tr>
+	</table>
+	<input type="submit" value="Submit">
+	<input type="reset" value="Reset">
+</body>
+</html>
