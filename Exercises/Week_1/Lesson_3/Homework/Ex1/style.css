@@ -1,0 +1,38 @@
+header{
+	background: pink;
+	border: 1px solid black;
+	width: 75%;
+	margin: 20px auto;
+	text-align: center;
+}
+header ul li {
+	display: inline;
+	list-style-type: none;
+	padding: 5px;
+	color: white;
+
+}
+.khung{
+	border: 1px solid black;
+	padding: 5px;
+	background-color: yellow;
+	text-decoration: none;
+}
+h1{
+	font-family: arial;
+	color: red;
+}
+body{
+	background-color: #A0522D;
+}
+h2{
+	color: white;
+}
+
+
+.fix-pic{
+	background-color: yellow;
+	text-align: center;
+	padding-top: 3px;
+	border: 1px solid black;
+}
