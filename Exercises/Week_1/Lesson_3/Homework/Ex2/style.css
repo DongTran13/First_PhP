@@ -1,0 +1,26 @@
+.content{
+	background: cornsilk;
+	border: 3px dotted black;
+	padding: 15px;
+	width: 50%;
+	margin: 15px;
+}
+
+body{
+	background-color: #A0522D;
+}
+.box-text{
+	color: white;
+	width: 150px;
+	height: 30px;
+	background-color: blue;
+	text-align: center;
+	border-radius: 15px;
+}
+footer{
+	width: 240px;
+	border: 1px solid black;
+	text-align: center;
+	background-color: lightblue;
+	border-radius: 15px;
+}
