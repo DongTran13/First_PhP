@@ -1,0 +1,24 @@
+body{
+	background-color: #F6F3E5;
+}
+.container{
+	background-color: white;
+	width: 85%;
+	margin: auto;
+}
+.sidebar
+{
+	float: right;
+	width: 30%;
+
+
+}
+.article{
+	float: left;
+	width: 65%;
+}
+.content{
+	clear: both;
+	display: inline-block;
+}
+

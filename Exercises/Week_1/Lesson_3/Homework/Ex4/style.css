@@ -1,0 +1,9 @@
+header{
+	text-align: center;
+	background-color: gray;
+	border-bottom: 5px solid black;
+	margin-bottom: 5px;
+}
+.content{
+	text-align: center;
+}
