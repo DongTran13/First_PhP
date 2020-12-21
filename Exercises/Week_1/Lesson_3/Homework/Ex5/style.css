@@ -5,11 +5,14 @@ body{
 	background-color: white;
 	width: 85%;
 	margin: auto;
+	padding: 30px;
+
 }
 .sidebar
 {
 	float: right;
-	width: 30%;
+	width: 250px ;
+	padding-left: 30px;
 
 
 }
