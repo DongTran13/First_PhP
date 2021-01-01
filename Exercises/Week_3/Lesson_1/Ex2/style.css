@@ -1,0 +1,15 @@
+body{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding: auto;
+}
+.font-size{
+	font-size: 36px;
+}
+.color{
+	color: yellow;
+}
+table tr td {
+	padding-left: 10px;
+}
