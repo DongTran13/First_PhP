@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>EX4</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<p class="text-center font-size"><b>Đăng ký thành viên</b></p>
+	<p>Để đăng ký thành viên, bạn cần khai báo tất cả các ô trống dưới đây: </p>
+	<form>
+		<input type="text" name="firstname" id="firstname" placeholder="Họ và tên đệm" class="size margin"><br>
+		<input type="text" name="lastname" id="lastname" placeholder="Tên" class="size margin"><br>
+		<input type="text" name="login" id="login" placeholder="Tên đăng nhập" class="size margin"><br>
+		<input type=email required name="email" id="email" placeholder="Email" class="size margin"><br>
+		<input type="password" name="pass" id="pass" placeholder="Password" class="size margin"> <br>
+		<label class="sex" > Giới tính: </label>
+		<input type="radio" name="gender" id="n/a">
+		<label for="n/a">N/A</label>
+		<input type="radio" name="gender" id="male">
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="female">
+		<label for="female">Female</label><br>
+		<input type="datetime" name="datetime" placeholder="Ngày tháng năm sinh" class="size margin"><br>
+		<textarea id="sign" name="sign" class="size margin"></textarea><br>
+		<select name="question" id="question" class="size margin">
+			<option>Bạn sinh ngày bao nhiêu ?</option>
+			<option>Thằng con bạn tên gì ?</option>
+			<option>Con vợ bạn tên gì ?</option>
+			<option>Bạn đang ngoại tính đúng không ?</option>
+		</select>
+		<br>
+		<input type="text" name="answer" id="answer" class="size margin"><br> 
+		<div class="submit">
+		<input type="checkbox" name="checkbox" id="checkbox">
+		<labe for="checkbox"> Tôi đồng ý với</label>
+		<button class="margin">Quy định đăng ký thành viên</button><br>
+		<input class="reset-nav" type="reset" name="reset" value="Thiết lập lại" >
+		<input class="submit-nav" type="submit" name="submit" value="Đăng ký thành viên">
+		</div>
+
+	</form>
+
+</body>
+</html>

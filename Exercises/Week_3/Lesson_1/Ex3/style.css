@@ -1,0 +1,51 @@
+
+#femail{
+	height:30px;
+	width: 60%;
+	display: inline;
+	position: relative;
+	top: 16px;
+
+}
+.pic{
+	height: 30px;
+
+
+}
+button{
+	position: relative;
+	top: 10px;
+}
+body table{
+	background-color: black;
+	color: #9b9b9b;
+	margin: auto;
+	padding: 30px;
+}
+body table tr td{
+	padding-left: 60px;
+}
+.col-left{
+	position: relative;
+	bottom: 28px;
+	padding-right: 200px;
+}
+.col-right{
+	position: relative;
+	bottom: 19px;
+}
+button{
+	background-color: #00bcd4;
+
+
+
+}
+.vuong{
+	width: 30%;
+
+	background-color: #7986CB;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px;
+	color: white;
+}
