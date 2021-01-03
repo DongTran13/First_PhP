@@ -1,0 +1,16 @@
+.header{
+	text-align: center;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+  	font-weight: 300;
+ 	line-height: 1.45;
+ 	color: #0F1108;
+ 	width: 45%;
+ 	margin: auto;
+
+}
+.pic{
+	width: 500px;
+	height: 500px;
+}

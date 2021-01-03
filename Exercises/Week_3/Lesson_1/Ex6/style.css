@@ -1,0 +1,19 @@
+body{
+	margin: auto;
+	width: 1000px;
+	height: 448px;
+	border: 10px solid blue;
+
+}
+.pic{
+	width: 600px;
+	height: 400px;
+	padding: 20px;
+}
+.box{
+	width: 320px;
+    height: 30px;
+}
+.form{
+	margin-bottom: 130px;
+}
