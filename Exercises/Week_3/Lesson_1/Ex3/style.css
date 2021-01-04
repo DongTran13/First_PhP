@@ -36,9 +36,12 @@ body table tr td{
 }
 button{
 	background-color: #00bcd4;
-
-
-
+	width: 35px; 
+	height: 37px; 
+	font-size: 15px; 
+	color: white;
+	position: relative;
+    top: 17px;
 }
 .vuong{
 	width: 30%;
