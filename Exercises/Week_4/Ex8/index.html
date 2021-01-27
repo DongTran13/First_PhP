@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <input type="text" id="text"><br>
+        <input type="number" id="input">
+        <button type="button" onclick="get()">Click Me To Start !</button>
+    </form>
+    <p id="txtt"></p>
+    <p id="txt"></p>
+    <script>
+        function get(){
+            var txt = document.getElementById("text").value ;
+            var n = document.getElementById("input").value;
+            var c = txt.slice(0,n);
+            let v = "";
+            document.getElementById("txtt").innerHTML = c;
+            for (let i = 0; i < n; i++) {
+                v += "1";
+                if (i == n){
+                    break;
+                }
+            }
+            document.getElementById("txt").innerHTML = v;
+        }
+    </script>
+    
+</body>
+</html>

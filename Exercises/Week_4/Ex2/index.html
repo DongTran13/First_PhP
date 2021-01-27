@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <form action="#">
+        <label for="first-number">First Number: </label>
+        <input type="number" id="first-number" name="first-number"><br>
+        <label for="second-number">Second Number: </label>
+        <input type="number" id="second-number" name="second-number"><br>
+        <button type="button" id="compare" onclick="getCompare()">Compare</button>
+        
+    </form>
+    <p>This is the result: </p>
+    <p id="output"></p>
+</div>
+    <script>
+        function getCompare(){
+            var a = document.getElementById("first-number").value;
+            var b = document.getElementById("second-number").value;
+            if( a < b){
+                document.getElementById("output").innerHTML = b;
+            }
+            else{
+                document.getElementById("output").innerHTML = a;
+            }
+        }
+
+    </script>
+</body>
+</html>

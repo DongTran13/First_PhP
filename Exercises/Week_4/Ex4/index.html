@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exercise 4 of Javascript</title>
+</head>
+<body>
+	<form>
+		<h1>Greatest common divisor</h1>
+		<table>
+			<tr>
+				<td><b>1st Number:</b></td>
+				<td><input type="text" id="firstNumber"></td>
+			</tr>
+			<tr>
+				<td><b>2nd Number:</b></td>
+				<td><input type="text" id="secondNumber"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="Result" onclick="calculate()"></td>
+				<td id="result"></td>
+			</tr>
+		</table>
+		<script type="text/javascript">
+			function calculate() {
+				var a = document.getElementById('firstNumber').value;
+				var b = document.getElementById('secondNumber').value;
+				var c,d;
+				if (a>b) {	
+					for (var i = 1; i <= b; i++) {
+						if (a%i===b%i && b%i===0) {
+							var j = i;
+							}
+						}
+				}else{
+					for (var i = 1; i <= a; i++) {
+						if (a%i===0 && b%i===a%i) {
+							var j = i;
+						}
+					}
+				}
+				document.getElementById('result').innerHTML = j;
+			}
+		</script>
+	</form>
+</body>
+</html>

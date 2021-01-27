@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <label>How many star do you want to print to the screen ?</label><br>
+        <input type="number" id="number">
+        <input type="reset">
+        <input type="button" id="star" value="click" onclick="getStar()">
+    </form> 
+    <p id="output"></p>
+    <script>
+        function getStar(){
+            var a = document.getElementById("number").value; 
+            let htmlString = "";
+            for(var i=1 ; i <= a; i++){
+                htmlString += "*";
+                if(i%5==0){
+                     htmlString+= "<br>";
+                }
+            }
+            document.getElementById("output").innerText = htmlString;
+        }
+    </script> 
+</body>
+</html>
