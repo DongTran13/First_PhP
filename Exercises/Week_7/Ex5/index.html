@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/80ed2966f3.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Form</h2>
+        </div>
+           <form class="form" id="form" action="#">
+                <div class="form-control p-5 m-5">
+                    <label>Name</label>
+                    <input type="text" id="name" placeholder="username">
+                    <small id="error-name">Không được để trống trường này</small>
+                </div>
+
+                <div class="form-control p-5 m-5">
+                    <label>Email</label>
+                    <input type="email" id="email" placeholder="email">
+                    <small id="error-email">Không được để trống trường này</small>
+                </div>
+                <div class="form-control success p-5 m-5">
+                    <label>Country</label>
+                    <select name="Country" id="country">
+                        <option value="select-country">Select-Country</option>
+                        <option value="viet_name">Viet Nam</option>
+                        <option value="japan">Japan</option>
+                        <option value="usa">USA</option>
+                    </select>
+                    <small id="error-country">Không được để trống trường này</small>
+                </div>
+                <button type="submit" onclick="get()" >Submit</button>
+            </form> 
+        </div>
+    <script>
+        function get() {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var country = document.getElementById("country").value;
+           if (name =="") {
+                alert("Please fill your name");
+                document.getElementById("name").style.borderColor="red";
+                document.getElementById("error-name").style.display="inline-block";
+                return name;
+           }else {
+                document.getElementById("error-name").style.display="none";
+                document.getElementById("name").style.borderColor=""
+           }
+           if (email =="") {
+                alert("Please fill your email");
+                document.getElementById("email").style.borderColor="red";
+                document.getElementById("error-email").style.display="inline-block";
+                return email;
+           }else{
+            document.getElementById("error-email").style.display="none";
+            document.getElementById("email").style.borderColor="";
+           }
+           if (country == "select-country" ) {
+                alert("Please fill your country");
+                document.getElementById("error-country").style.display="inline-block";
+               return country;
+           }else{
+                document.getElementById("error-country").style.display="none";
+           }
+            
+        }
+        
+        
+
+    </script>
+    
+</body>
+</html>

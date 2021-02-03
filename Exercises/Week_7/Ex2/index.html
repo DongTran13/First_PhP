@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <label><p>Nhập hệ số a: </p></label>
+        <input id="numA" type="text">
+        <label><p>Nhập hệ số b: </p></label>
+        <input id="numB" type="text"><br>   
+        <button onclick="caculate()">Caculate</button>
+    </form>
+    <p>Phương trình bậc nhất đang có dạng: </p>
+    <p id="printOut"></p>
+    <p id="result"></p>
+    <script>
+        function caculate() {
+            var a = document.getElementById("numA").value;
+            var b = document.getElementById("numB").value;
+            var c = -b / a;
+            document.getElementById("printOut").innerHTML = a + "x+" + b + " = 0";
+            document.getElementById("result").innerHTML = "x= " + c;              
+        }
+        
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn" onclick="get()">Click me !</button>
+    <script>
+        function get() {
+            var check = prompt("Nhập vào số a: ");
+            if (check >=1 && check <= 10) {
+                alert(check +" " + "Nằm trong khoảng từ 1->10");  
+            }else{
+                alert(check + " " + "Không nằm trong khoảng từ 1->10");
+            }if(check >= 50 && check <= 100){
+                alert(check + " " + "Nằm trong khoảng 50->100");
+            }else{
+                alert(check + " " +" không nằm trong khoảng từ 50->100");
+            }
+        }
+    </script>
+    
+</body>
+</html>

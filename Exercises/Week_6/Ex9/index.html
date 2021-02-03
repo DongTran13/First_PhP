@@ -9,17 +9,18 @@
     <input type="text" id="text">
     <input type="text" id="search">
     <button type="button" onclick="get()">Click Me To Start !</button>
-    <p id="vitri"></p>
-    
+    <p id="result"></p>
 <script>
+    var str = document.getElementById("text").value;
+    var find = document.getElementById("Search").value;
+    var pos = str.indexof(find);
     function get() {
-        var str = document.getElementById("text").value;
-        var find = document.getElementById("Search").value;
-        var pos = str.search(find);
-        document.getElementById("Vitri").innerHTML = pos;
+        if(pos != -1){
+            document.getElementById("result").innerHTML= "True";
+        }else{
+            document.getElementById("result").innerHTML= "False! Your string doesn't exist!";
+        }
     }
-    
 </script>
-    
 </body>
 </html>
