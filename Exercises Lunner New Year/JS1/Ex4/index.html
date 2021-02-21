@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">Tính giai thừa :</div>
+        <label><b>Nhập số: </b></label>
+        <input type="number" id="num" >
+        <button onclick="get()">Caculate</button>
+        <p id="result"></p>
+    </div>
+    <script>
+        function get() {
+            var gia_tri = document.getElementById("num").value;
+            var giai_thua = 1;
+            var string = "";
+            for(var i = 1; i <= gia_tri; i++){
+                giai_thua *= i;
+                if (i != gia_tri) {
+                    string += i + " x ";
+                }else{
+                    string += i;
+                }
+                
+            }
+            document.getElementById("result").innerHTML = gia_tri + "! = " + string + "=" + giai_thua;
+            
+        }
+    </script>
+    
+</body>
+</html>
