@@ -2,73 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col bg-secondary">
+                        <h3>Some favorites</h3>
+                            <ul>
+                                <li>Root</li>
+                                <li>Root</li>
+                                <li>Root</li>
+                            </ul>
+                            <form action="#">
+                                <input type="search" name="search" id="search">
+                                <input type="button" class="bg-primary" value="search value" onclick="">
+                            </form>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-sm-8">
+                    <div class="alert alert-danger">
+                        <strong>A simple danger alert -- check it out!</strong>
+                    </div>
+                <h1>Wild & Wackly vegetables</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <blockquote><p>__ Tom Robbins</p></blockquote>
+                <h3>Some diseases</h3>
+                <div class="row border">
+                    <div class="col-sm-2">
+                        <p><b>#</b></p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p><b>First</b></p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p><b>Last</b></p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p><b>Handle</b></p>
+                    </div>
+                </div>
+                <div class="row border">
+                    <div class="col-sm-2">
+                        <p><b>1</b></p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>Mark</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>Otto</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>@mdo</p>
+                    </div>
+                </div>
+                <div class="row border">
+                    <div class="col-sm-2">
+                        <p><b>2</b></p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>Jacob</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>Thomton</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>@fat</p>
+                    </div>
+                </div>
+                <div class="row border">
+                    <div class="col-sm-2">
+                        <p><b>3</b></p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>Larry</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>The Bird</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>@twitter</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <h3>Really informative info</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequatur, recusandae eius sequi hic nam harum veritatis numquam qui adipisci nemo, consequuntur placeat. Fugit aliquam, atque voluptatum voluptas amet aliquid.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, fugit animi! Porro illum asperiores doloribus obcaecati quam consequuntur, harum eos eligendi suscipit nemo architecto corrupti aspernatur earum quisquam sapiente! Ipsam!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum officia nulla sunt sed sint necessitatibus dolore, quibusdam veniam vel! Sapiente, alias incidunt veritatis dolorum vitae atque! Alias ad soluta commodi?
+                    </p>
+                </div>
+                    
+            </div>
+        </div>
     </div>
-  </nav>
-        <div class="content jumbotron">
-          <h1>Hello World</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quasi optio maiores temporibus quas illo fuga corporis nostrum repellat pariatur impedit fugit maxime cum ab aliquid debitis ex quia a!</p>
-          <button class="btn-learn pl-3 pr-3 pt-2 pb-2">Learn more</button>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4">
-              <h1>Heading</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed saepe porro, molestiae est minus itaque facere eligendi voluptatum, fuga omnis esse nesciunt perferendis consequatur. Officiis quia illo voluptatibus voluptas cum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, saepe eum? Reprehenderit dolorem labore perferendis odit consequuntur impedit tempore dolorum sapiente nulla blanditiis. Ullam repellat ea labore quisquam, debitis animi.
-              </p>
-            </div>
-            <div class="col-sm-4">
-              <h1>Heading</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed saepe porro, molestiae est minus itaque facere eligendi voluptatum, fuga omnis esse nesciunt perferendis consequatur. Officiis quia illo voluptatibus voluptas cum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, saepe eum? Reprehenderit dolorem labore perferendis odit consequuntur impedit tempore dolorum sapiente nulla blanditiis. Ullam repellat ea labore quisquam, debitis animi.
-              </p>
-            </div>
-            <div class="col-sm-4">
-              <h1>Heading</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed saepe porro, molestiae est minus itaque facere eligendi voluptatum, fuga omnis esse nesciunt perferendis consequatur. Officiis quia illo voluptatibus voluptas cum.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, saepe eum? Reprehenderit dolorem labore perferendis odit consequuntur impedit tempore dolorum sapiente nulla blanditiis. Ullam repellat ea labore quisquam, debitis animi.
-              </p>
-            </div>
-          </div>
-        </div>
-        
-    
 </body>
 </html>
