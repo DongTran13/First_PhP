@@ -1,0 +1,19 @@
+.border-table{
+    width: 270px;
+    border: 1px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+.col-black{
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+.col-white{
+    height: 30px;
+    width: 30px;
+    background-color: #000000;
+    border: 1px solid black;
+}
