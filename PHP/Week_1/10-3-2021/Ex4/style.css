@@ -1,0 +1,10 @@
+.bg-light-green{
+    background-color: lightgreen;
+}
+.decorate-none{
+    list-style-type: none;
+}
+.radius-5px{
+    border:1px solid rgb(188, 197, 171);
+    border-radius: 10px;
+}
